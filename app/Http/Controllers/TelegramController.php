@@ -18,7 +18,7 @@ class TelegramController extends Controller
 //        $customServiceInstance->run();
 
         $telegram
-            = new Api('536325428:AAHU-XxL7dg9KLxx8clFGpwp606l6u7OtoM'); //Устанавливаем токен, полученный у BotFather
+            = new Api('token'); //Устанавливаем токен, полученный у BotFather
 
         $result
             = $telegram->getWebhookUpdates(); //Передаем в переменную $result полную информацию о сообщении пользователя
